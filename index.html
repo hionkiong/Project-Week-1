@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stella Choi</title>
+    <style>
+      :root {
+        --primary-color: #6c63ff;
+        --secondary-color: #f5f2fe;
+        --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      body {
+        margin: 60px auto;
+        max-width: 800px;
+      }
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+        margin: 0;
+      }
+      h1 {
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 96px;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+      }
+      .buttons a {
+        margin: 20px;
+        border: solid 1px;
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        box-shadow: var(--box-shadow);
+      }
+      #contactButton {
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        border-color: var(--secondary-color);
+      }
+      #aboutButton {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+      }
+      a:hover {
+        cursor: pointer;
+      }
+      a:visited {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>👋 Hi I am</h1>
+    <h2>Stella Choi</h2>
+    <h3>🇰🇷Front-end developer, based in London</h3>
+    <div class="buttons">
+      <a id="contactButton" href="about.html#contactMe">Contact Me</a>
+      <a id="aboutButton" href="about.html">About Me</a>
+    </div>
+  </body>
+</html>
